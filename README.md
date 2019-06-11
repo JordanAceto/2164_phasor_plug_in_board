@@ -41,7 +41,7 @@ A bipolar 12 volt power supply is needed. This will typically come from the moth
 
 
 ## Parts Ordering
-The BOM will eventually have a link to a Mouser project with the majority of the parts needed to build the board, with the exception of the 2164 VCA chips. There will also be a link to the SmallBear Electronics parts page.
+The BOM has a link to a Mouser project with the majority of the parts needed to build the board, with the exception of the 2164 VCA chips. There is a link to the SmallBear Electronics parts page for these.
 
 After the PCB is evaluated, the BOM will have a link to OSHPark, where you can order boards.
 
