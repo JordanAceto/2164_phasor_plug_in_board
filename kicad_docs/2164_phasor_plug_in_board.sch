@@ -31,7 +31,7 @@ U 1 1 5D037374
 P 3150 10400
 F 0 "RV1" H 3100 10400 50  0000 R CNN
 F 1 "10k" V 3150 10450 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3269W_Vertical" H 3150 10400 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 3150 10400 50  0001 C CNN
 F 3 "~" H 3150 10400 50  0001 C CNN
 	1    3150 10400
 	1    0    0    1   
@@ -42,7 +42,7 @@ U 1 1 5D038EF4
 P 3500 11200
 F 0 "RV2" V 3385 11200 50  0000 C CNN
 F 1 "100k" V 3500 11200 50  0000 C CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3269W_Vertical" H 3500 11200 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 3500 11200 50  0001 C CNN
 F 3 "~" H 3500 11200 50  0001 C CNN
 	1    3500 11200
 	0    -1   -1   0   
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5600 2750 5700
 $Comp
-L jordans_parts:SSM2164 U2
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U2
 U 1 1 5CF83552
 P 2250 5400
 F 0 "U2" H 2325 5715 50  0000 C CNN
@@ -600,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5600 5250 5700
 $Comp
-L jordans_parts:SSM2164 U2
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U2
 U 2 1 5D88BF62
 P 4750 5400
 F 0 "U2" H 4825 5715 50  0000 C CNN
@@ -810,7 +810,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 5600 9200 5700
 $Comp
-L jordans_parts:SSM2164 U2
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U2
 U 3 1 5E0F7FF8
 P 8700 5400
 F 0 "U2" H 8775 5715 50  0000 C CNN
@@ -939,7 +939,7 @@ Wire Wire Line
 Wire Wire Line
 	11700 5600 11700 5700
 $Comp
-L jordans_parts:SSM2164 U2
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U2
 U 4 1 5E0F8074
 P 11200 5400
 F 0 "U2" H 11275 5715 50  0000 C CNN
@@ -1149,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	15650 5650 15650 5750
 $Comp
-L jordans_parts:SSM2164 U4
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U4
 U 1 1 5E1E05C4
 P 16100 9800
 F 0 "U4" H 16175 10115 50  0000 C CNN
@@ -1278,7 +1278,7 @@ Wire Wire Line
 Wire Wire Line
 	18150 5650 18150 5750
 $Comp
-L jordans_parts:SSM2164 U4
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U4
 U 2 1 5E1E0640
 P 16100 8100
 F 0 "U4" H 16100 8400 50  0000 C CNN
@@ -1360,7 +1360,7 @@ Fcv
 Text GLabel 17650 5700 3    50   Input ~ 0
 Fcv
 $Comp
-L jordans_parts:SSM2164 U4
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U4
 U 4 1 5E502D3D
 P 15150 5450
 F 0 "U4" H 15225 5765 50  0000 C CNN
@@ -1433,7 +1433,7 @@ Wire Wire Line
 	17500 10550 17600 10550
 Connection ~ 17500 10550
 $Comp
-L jordans_parts:SSM2164 U4
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U4
 U 3 1 5CF8623C
 P 17650 5450
 F 0 "U4" H 17725 5765 50  0000 C CNN
@@ -1646,10 +1646,10 @@ U 1 1 5DF5461F
 P 18250 10550
 F 0 "RV3" V 18135 10550 50  0000 C CNN
 F 1 "100k" V 18250 10550 50  0000 C CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3269W_Vertical" H 18250 10550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 18250 10550 50  0001 C CNN
 F 3 "~" H 18250 10550 50  0001 C CNN
 	1    18250 10550
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:-12V #PWR034
@@ -2070,7 +2070,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 12950 15250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L jordans_parts:SSM2164 U4
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U4
 U 5 1 5F0E7D6D
 P 10850 15150
 F 0 "U4" H 10800 15500 50  0000 C CNN
@@ -2338,7 +2338,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 15350 10800 15350
 $Comp
-L jordans_parts:SSM2164 U2
+L 2164_phasor_plug_in_board-rescue:SSM2164-jordans_parts U2
 U 5 1 5F903A8D
 P 10050 15150
 F 0 "U2" H 10000 15500 50  0000 C CNN
